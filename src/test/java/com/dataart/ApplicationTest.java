@@ -10,5 +10,10 @@ public class ApplicationTest {
     public void testTwoPlusTwoShouldBeEqualFour() {
         assertTrue(Application.plus(2, 2) == 4);
     }
+
+    @Test
+    public void testTwoPlusTwoShouldBeEqualFive() {
+        assertTrue(Application.plus(2, 2) == 5);
+    }
 }
 
