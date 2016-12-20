@@ -12,8 +12,8 @@ public class ApplicationTest {
     }
 
     @Test
-    public void testTwoPlusTwoShouldBeEqualFive() {
-        assertTrue(Application.plus(2, 2) == 5);
+    public void testTwoPlusThreeShouldBeEqualFive() {
+        assertTrue(Application.plus(2, 3) == 5);
     }
 }
 
